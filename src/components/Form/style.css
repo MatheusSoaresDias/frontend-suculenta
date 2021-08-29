@@ -1,0 +1,109 @@
+form#addUpdate {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-radius: 7px;
+    border: 1px solid #00c853;
+    padding: 50px 50px;
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+form#addUpdate .left {
+    max-width: 350px;
+    width: 100%;
+}
+
+label#photos {
+    display: flex;
+    cursor: pointer;
+    border: 3px dashed #ddd;
+    border-radius: 7px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+label#photos input {
+    display: none;
+}
+
+label#photos.has-photos {
+    border: 1px solid #00c853;
+}
+
+label#photos.has-photos img {
+    display: none;
+}
+
+label#photos .switch-img {
+    display: none;
+}
+
+label#photos .switch-div {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+
+label#photos .switch-img-has {
+    display: block;
+    position: relative;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+    color: #00c853;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+form#addUpdate .right {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+form#addUpdate .right .input-design {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+form#addUpdate .right label {
+    color: #404040;
+    text-align: center;
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    border-radius: 7px 0 0 7px;
+    border: 1px solid #00c853;
+    height: 50px;
+}
+
+form#addUpdate .right input {
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #00c853;
+    border-radius: 0 7px 7px 0;
+    color: #404040;
+    position: relative;
+    right: 2px;
+}
+
+form#addUpdate .right button {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #00c853;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+.header {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 1px 8px #BDBDBD;
+}
+
+header {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+header img {
+    height: 50px;
+}
+
+header .right-side {
+    display: flex;
+}
+
+header .right-side .search {
+    margin-right: 40px;
+}
+
+.search input {
+    border: none;
+    border-radius: 7px;
+    background-color: #eee;
+    height: 50px;
+    width: 300px;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #404040;
+}
+
+.search button {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    left: -50px;
+}
+
+.add button{
+    height: 50px;
+    width: 200px;
+    border-radius: 7px;
+    border: none;
+    background-color: #00c853;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
