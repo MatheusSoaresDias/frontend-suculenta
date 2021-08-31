@@ -36,7 +36,7 @@ export default function Details({ history }) {
     return (
         <div className="details">
             <div className="left">
-                <img src={`http://192.168.0.104:8080/assets/uploads/${id}-${cont}.png`} alt="" />
+                <img src={`https://192.168.0.104:8080/assets/uploads/${id}-${cont}.png`} alt="" />
                 <div className="btns-imgs">
                     <button type="button" onClick={() => {
                         if (cont === 1) {
