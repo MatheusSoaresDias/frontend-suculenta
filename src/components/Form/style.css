@@ -2,13 +2,12 @@ form#addUpdate {
     display: flex;
     width: 100%;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 50px auto;
     justify-content: space-between;
     border-radius: 7px;
     border: 1px solid #00c853;
     padding: 50px 50px;
     background-color: #fff;
-    margin-top: 100px;
 }
 
 form#addUpdate .left {

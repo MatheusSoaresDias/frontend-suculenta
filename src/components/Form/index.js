@@ -2,8 +2,6 @@ import React, { useEffect, useMemo, useState } from 'react';
 
 import api from '../../services/api';
 
-import './style.css';
-
 import camera from '../../assets/camera.svg';
 import { useParams } from 'react-router-dom';
 

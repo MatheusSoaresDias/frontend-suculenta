@@ -43,9 +43,9 @@ header .right-side .search {
     border: none;
     cursor: pointer;
     background-color: transparent;
-    height: 50px;
-    width: 50px;
-    left: -50px;
+    height: 0px;
+    width: 0px;
+    left: -30px;
 }
 
 .add button{

@@ -3,8 +3,6 @@ import { useParams } from 'react-router-dom';
 
 import api from '../../services/api';
 
-import './style.css';
-
 export default function Details({ history }) {
 
     const [name, setName] = useState();
@@ -38,7 +36,7 @@ export default function Details({ history }) {
     return (
         <div className="details">
             <div className="left">
-                <img src={`http://localhost:8080/assets/uploads/${id}-${cont}.png`} alt="" />
+                <img src={`http://192.168.0.104:8080/assets/uploads/${id}-${cont}.png`} alt="" />
                 <div className="btns-imgs">
                     <button type="button" onClick={() => {
                         if (cont === 1) {
