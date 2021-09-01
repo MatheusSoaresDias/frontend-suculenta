@@ -43,7 +43,7 @@ export default function Dashboard({ history }) {
             {suculentas.map(suculenta => (
                 <article key={suculenta.id}>
                     <Link to={`/details/${suculenta.id}`}>
-                        <img src={`https://192.168.0.104:8080/assets/uploads/${suculenta.id}-1.png`} loading="lazy" alt="" />
+                        <img src={`http://192.168.0.104:8080/assets/uploads/${suculenta.id}-1.png`} loading="lazy" alt="" />
                     </Link>
                     <div className="info">
                         <strong>{suculenta.name}</strong>
