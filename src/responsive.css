@@ -1,0 +1,92 @@
+/*320, 480, 760, 960, 1200, 1600*/
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 0 20px;
+    }
+    section#dashboard {
+        padding: 20px;
+    }
+
+    section#dashboard article {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    article:nth-child(3n-1) {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1020px) {
+    form#addUpdate {
+        width: 100%;
+        max-width: 900px;
+        margin: 50px auto ;
+    }
+}
+
+@media (max-width: 920px) {
+    form#addUpdate, .details {
+        max-width: 500px;
+        flex-direction: column;
+        align-items: center;
+    }
+    form#addUpdate .left, .details .left {
+        max-width: 350px;
+        width: 100%;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+    form#addUpdate .right, .details .right {
+        max-width: 350px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 702px) {
+    .search input {
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+    }
+    header img {
+        margin-right: 20px;
+    }
+    .add {
+        display: flex;
+        align-items: center;
+    }
+    .add button {
+        width: 100px;
+        font-size: 14px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 520px) {
+    form#addUpdate, .details {
+        max-width: 360px;
+        padding: 5px 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .search input {
+        width: 150px;
+        font-size: 10px;
+        height: 40px;
+    }
+    .add button {
+        width: 80px;
+        font-size: 14px;
+        height: 40px;
+    }
+    header img {
+        height: 30px;
+        margin-right: 5px;
+    }
+    header .right-side .search {
+        margin-right: 15px;
+    }
+}
